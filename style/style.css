@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+li, a, button{
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #24252A;
+    text-decoration: none;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10%;
+    align-items: center;
+}
+
+.logo{
+    cursor: pointer;
+    height: 90px;
+    width: 95px;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 10px;
+}  
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: #0088a9;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0, 123, 109, 1);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+button:hover{
+    background-color: rgba(0, 123, 109, 0.8);
+
+}
+
+.cta-2{
+    margin-top: 20px;
+    padding: 5px 30px;
+    background-color: rgba(0, 123, 109, 1);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+.banner{
+    display: flex;
+}
+
+.text-container{
+    margin: 25px 0;
+    padding-left: 20px;
+
+}
+
+.text-container p{
+    padding: 20px 0;
+}
+
+.img-container{
+    padding: 0px 90px;
+}
+
+.second-container{
+    margin-top: 50px;
+    display: flex;
+    padding: 30px;
+    font-size: 1rem;
+    
+}
+
+.second-container p h3{ 
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+   
+}
+
+.about{
+    font-size: .8rem;
+    position: relative;
+    text-align: center;
+    line-height: 18px;
+
+}
+
+.about p{
+    margin-top: 30px;
+    font-size: .5rem;
+}
+
+
+.child-3{
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    text-align: center;
+    background-color: #fffdfd;
+
+
+}
+
+.child-3 a{
+
+    margin: 0 left;
+}
+
+
+.price-table{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 65px ;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+
+
+.column{
+    flex:25%;
+    padding:10px;
+    max-width: 320px;
+    box-sizing: border-box;
+}
+
+
+.table{
+    margin-top: 30px;
+    background: #fff;
+    padding: 30px 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px #00000070;
+}
+
+.table ul{
+    margin: 0;
+    padding: 0;
+}
+
+.table ul li{
+    padding: 10px 0;
+    list-style: none;
+}
+
+
+.price{
+
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.price span{
+    display: block;
+    font-size: 14px;
+}
+
+.table a{
+    text-decoration: none;
+    color: #2c3e50;
+    border: 2px solid#2c3e50;
+    display: block;
+    padding: 10px 0;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: 0.5s linear;
+
+}
+
+.table a:hover{
+    background: #2c3e50;
+    color: #fff;
+}
+
+.pop{
+    padding: 0px 40px;
+    background: #2c3e50;
+    color: #fff;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 19px;
+    right: -30px;
+
+}
+
+.review{
+    justify-content: center;
+}
+
+
+.blockquote{
+    justify-content: center;
+    max-width: 600px;
+    padding:25px;
+    margin:5%;
+    margin-left: 7%;
+    margin-right: 40%;
+    /* border: 1px solid rgb(175, 168, 139); */
+    color: rgb(206, 202, 187);
+    box-sizing: border-box;
+}
+
+.blockquote--bordered{
+    border-left-width: 10px;
+}
+
+.blockquote-text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    font-style: italic;
+    font-size: 1.15em;
+}
+
+.blockquote-text-credit{
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
+}
+
+.blockquote-text-credit::before{
+    content: "\2014";
+}
+
+.blockquote--quoted::before{
+    content: "\201c";
+    font-size: 100px;
+    display: block;
+    margin-top: -20px;
+    margin-bottom: -40px;
+}
+
+.our-review{
+    font-size: .8rem;
+    position: relative;
+    text-align: right;
+    line-height: 18px
+}
+
+
+
+
+
+
